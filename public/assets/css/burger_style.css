@@ -1,0 +1,43 @@
+body {
+    background-image: url("../burger-seamless-pattern-background-vector-design_22159-34.jpg")
+}
+
+.header {
+    background-color: burlywood;
+}
+
+.each {
+    font-weight: bold;
+}
+
+.left {
+    background-color: yellow;
+    text-align: center;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    /* margin-right: 5px; */
+    border-radius: 100px;
+}
+
+.right {
+    background-color:red;
+    text-align: center;
+    /* padding-left: 10px;
+    padding-right: 5px; */
+    /* margin-left: 5px; */
+    border-radius: 100px;
+
+}
+
+.center {
+    background-color: green;
+    text-align: center;
+    border-radius: 100px;
+    padding: 0;
+
+
+}
+
+h1 {
+    text-align: center;
+}

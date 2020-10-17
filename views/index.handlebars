@@ -1,0 +1,52 @@
+<div class="row header">
+  <h1>BURGERS!</h1>
+</div>
+
+
+<div class="row">
+  <div class="col s4 left">
+    <h2>Burgers that are:</h2>
+
+    <ul>
+      {{#each burgers}}
+      {{#unless devoured}}
+      <li>
+        {{burger_name}}
+        <button class="eat" data-id="{{id}}" data-eaten=1>
+          DEVOUR IT!
+        </button>
+      </li>
+      {{/unless}}
+      {{/each}}
+    </ul>
+  </div>
+
+  <div class="col s4 center">
+    <h2>Make da burger</h2>
+    <form class="create-form">
+
+      <div class="form-group">
+        <label for="br">Burger Name:</label>
+        <input type="text" id="br" name="name">
+      </div>
+
+      <button type="submit">Your Burger Wish</button>
+    </form>
+  </div>
+
+  <div class="col s4 right">
+    <h2>Burgers that WERE</h2>
+    <h3>...before I devoured them!</h3>
+
+    <ul>
+      {{#each burgers}}
+      {{#if devoured}}
+      <li>
+        {{burger_name}}
+      </li>
+      {{/if}}
+      {{/each}}
+
+    </ul>
+  </div>
+</div>
