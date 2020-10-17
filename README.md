@@ -3,7 +3,7 @@
 
 ![burger](https://img.shields.io/github/languages/top/caitlinbou/burger)
 ## Description
-This app logs burgers that the user wishes to consume, by burger name. When ready, the user can click the "devour it" button, and the burger will move to the list of other burgers that have met the same fate. This application uses mySQL and Node to interact with the database, and Handlebars to generate the HTML.
+This app logs burgers that the user wishes to consume, by burger name. When ready, the user can click the "devour it" button, and the burger will move to the list of other burgers that have met the same fate. This application uses [mySQL](www.mysql.com) and [Node.js](www.nodejs.org) to interact with the database, and [Handlebars](www.handlebarsjs.com) to generate the HTML. It is hosted on [Heroku](www.heroku.com).
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -12,7 +12,7 @@ This app logs burgers that the user wishes to consume, by burger name. When read
 * [Tests](#Tests)
 * [Questions](#Questions)
 ## Installation
-The dependencies for this application are express, express-handlebars, and mySQL. To run the program, run "node server.js"
+The dependencies for this application are [express](expressjs.com), express-handlebars, and mySQL. To run the program, run "node server.js"
 ## Usage 
 The app is very simple to use. Once loaded in the browser, just add the name of the burger you wish to eat and click "Your Burger Wish". When ready to send the burger to the abyss (or the right side of the page) click on "DEVOUR IT".
 ## License 
