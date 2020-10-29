@@ -17,6 +17,8 @@ The dependencies for this application are [express](expressjs.com), express-hand
 ## Usage 
 The app is very simple to use. Once loaded in the browser, just add the name of the burger you wish to eat and click "Your Burger Wish". When ready to send the burger to the abyss (or the right side of the page) click on "DEVOUR IT".
 
+CLick here to view the deployed application: [Deployed Website](https://name-that-burger.herokuapp.com/)
+
 ![Screenshot](public/assets/images/screenshot.png)
 
 ## License 
